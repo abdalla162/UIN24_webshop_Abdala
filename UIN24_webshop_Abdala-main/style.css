@@ -46,10 +46,11 @@ header {
 
 header button {
     min-width: 3rem;
-    background: #ccc;
+    background: transparent;
     border: none;
     padding: 0;
     cursor: pointer;
+    position: relative;
 }
 
 header button span {
@@ -63,6 +64,9 @@ header button span {
     display: block;
     padding: 0.3rem;
     box-sizing: border-box;
+    position: absolute;
+    top: -0.4rem;
+    left: -0.9rem; 
 }
 
 #carticon {max-width: 3rem; }
@@ -104,8 +108,7 @@ main {
 main h2 {
     width: 100%;
     text-align: center;
-    display: block;
-    clear: both;
+    text-transform: uppercase;
 }
 
 main article{
@@ -124,6 +127,7 @@ main article img {
 }
 main article h3 {
     margin: 0.25rem 0;
+    text-transform: uppercase;
 }
 main article a {
     color: var(--yellow);
