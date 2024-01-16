@@ -43,6 +43,28 @@ header {
     padding: 2rem 1rem;
 }
 #logo { max-width: 15rem; }
+
+header button {
+    min-width: 3rem;
+    background: #ccc;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+header button span {
+    font-size: 0.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 50%;
+    display: block;
+    padding: 0.3rem;
+    box-sizing: border-box;
+}
+
 #carticon {max-width: 3rem; }
 
 nav {
